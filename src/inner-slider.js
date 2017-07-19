@@ -194,19 +194,19 @@ export var InnerSlider = createReactClass({
 
     var centerPaddingStyle = null;
 
-    if (this.props.vertical === false) {
-      if (this.props.centerMode === true) {
-        centerPaddingStyle = {
-          padding: ('0px ' + this.props.centerPadding)
-        };
-      }
-    } else {
-      if (this.props.centerMode === true) {
-        centerPaddingStyle = {
-          padding: (this.props.centerPadding + ' 0px')
-        };
-      }
-    }
+    // if (this.props.vertical === false) {
+    //   if (this.props.centerMode === true) {
+    //     centerPaddingStyle = {
+    //       padding: ('0px ' + this.props.centerPadding)
+    //     };
+    //   }
+    // } else {
+    //   if (this.props.centerMode === true) {
+    //     centerPaddingStyle = {
+    //       padding: (this.props.centerPadding + ' 0px')
+    //     };
+    //   }
+    // }
 
     const listStyle = assign({}, verticalHeightStyle, centerPaddingStyle);
 
